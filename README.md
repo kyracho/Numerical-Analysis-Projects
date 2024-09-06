@@ -35,46 +35,15 @@ Below are some of the topics covered in this repository:
 5. **Approximation Methods**
 6. **Numerical Solutions of Differential Equations**
 ---
-
 ## Requirements
 
-To run both of these notebooks, the following Python packages are required:
-
-```python
-%matplotlib inline
-import matplotlib.collections
-import matplotlib.colors
-import matplotlib.pyplot as plt
-import numpy
-import operator
-import pandas as pd
-import plotly.io as pio
-import plotly.graph_objects as go
-import plotly.offline as py
-import scipy
-import scipy.linalg as linalg
-import sympy as sp
-import time
-import timeit
-import warnings
-from scipy.optimize import curve_fit
-from functools import reduce
-from IPython.display import Image, display
-from sympy.solvers import solve
-import scipy.sparse as sparse
-import scipy.sparse.linalg as linalg
-from ipywidgets import interact, SelectionSlider
-from plotly.subplots import make_subplots
-```
-
-These packages are used for:
-- **Matplotlib**: Visualization of data and results.
-- **NumPy**: Numerical computations.
-- **Pandas**: Data manipulation and analysis.
-- **Plotly**: Interactive visualizations.
-- **SciPy**: Advanced scientific computations, including optimization, integration, and sparse matrix operations.
-- **SymPy**: Symbolic mathematics.
-- **IPython Widgets**: Interactive elements for notebook presentations.
+- **Matplotlib**: Used for visualization of data and results.
+- **NumPy**: Used for numerical computations.
+- **Pandas**: Used for data manipulation and analysis.
+- **Plotly**: Used for interactive visualizations.
+- **SciPy**: Used for advanced scientific computations, including optimization, integration, and sparse matrix operations.
+- **SymPy**: Used for symbolic mathematics.
+- **IPython Widgets**: Used for interactive elements.
 
 ---
 
